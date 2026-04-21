@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Tue, 21 Apr 2026 23:29:54 GMT</lastBuildDate>
+		<lastBuildDate>Tue, 21 Apr 2026 23:46:41 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -20,5 +20,18 @@
 		<itunes:explicit>false</itunes:explicit>
 		<itunes:category text="News"/>
 		<itunes:image href="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45593186/45593186-1773843177681-a5f263850b632.jpg"/>
+			<item>
+			<title><![CDATA[Trump Extends Iran Ceasefire Amid Stalled Peace Talks]]></title>
+			<description><![CDATA[<p>In this episode, we cover the latest developments in the US-Iran conflict. President Donald Trump has extended the ceasefire, citing a 'seriously fractured' Iranian leadership, while directing the military to continue the naval blockade. We break down the disarray surrounding the planned peace talks in Pakistan, Iran's refusal to negotiate under the threat of a blockade, and the escalating maritime tensions over seized vessels and disruptions in the Strait of Hormuz.</p>]]></description>
+			<guid isPermaLink="false">183684e0-9402-47d2-8035-8b4bbb3e7d7b</guid>
+			<dc:creator><![CDATA[ACDT]]></dc:creator>
+			<pubDate>Tue, 21 Apr 2026 23:46:41 GMT</pubDate>
+			<enclosure url="https://archive.org/download/podcast_20260422_trump_iran_today/2026-04-22_Trump_Iran_Today_Audio.mp3" length="4890258" type="audio/mpeg"/>
+			<itunes:summary><![CDATA[<p>In this episode, we cover the latest developments in the US-Iran conflict. President Donald Trump has extended the ceasefire, citing a 'seriously fractured' Iranian leadership, while directing the military to continue the naval blockade. We break down the disarray surrounding the planned peace talks in Pakistan, Iran's refusal to negotiate under the threat of a blockade, and the escalating maritime tensions over seized vessels and disruptions in the Strait of Hormuz.</p>]]></itunes:summary>
+			<itunes:explicit>false</itunes:explicit>
+			<itunes:duration>00:15:00</itunes:duration>
+			<itunes:image href="https://archive.org/download/podcast_20260422_trump_iran_today/2026-04-22_Trump_Iran_Today_Cover.png"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
 	</channel>
 </rss>
