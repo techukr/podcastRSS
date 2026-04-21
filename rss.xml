@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Tue, 21 Apr 2026 23:46:41 GMT</lastBuildDate>
+		<lastBuildDate>Tue, 21 Apr 2026 23:46:45 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -31,6 +31,19 @@
 			<itunes:explicit>false</itunes:explicit>
 			<itunes:duration>00:15:00</itunes:duration>
 			<itunes:image href="https://archive.org/download/podcast_20260422_trump_iran_today/2026-04-22_Trump_Iran_Today_Cover.png"/>
+			<itunes:episodeType>full</itunes:episodeType>
+		</item>
+			<item>
+			<title><![CDATA[The State of Tesla Autopilot: Legal Battles, Close Calls, and Surprising Progress]]></title>
+			<description><![CDATA[<p>In this episode, we explore the complex and controversial world of Tesla's driver assistance systems. We dive into the recent legal pressure from the California DMV that forced Tesla to drop the 'Autopilot' and 'Full Self-Driving' names from its marketing. Then, we analyze a terrifying near-miss in Texas where a Tesla on autopilot accelerated through a lowered railroad gate. Finally, we balance these concerns with a surprising first-hand account of the system's impressive and highly capable performance on American roads compared to its hesitant behavior in the UK.</p>]]></description>
+			<guid isPermaLink="false">e2ea83ec-4ef8-4d13-a4bb-5038e1a0835e</guid>
+			<dc:creator><![CDATA[ACDT]]></dc:creator>
+			<pubDate>Tue, 21 Apr 2026 23:46:44 GMT</pubDate>
+			<enclosure url="https://archive.org/download/podcast_20260422_tesla_auto-pilot/2026-04-22_Tesla_Auto-pilot_Audio.mp3" length="6550392" type="audio/mpeg"/>
+			<itunes:summary><![CDATA[<p>In this episode, we explore the complex and controversial world of Tesla's driver assistance systems. We dive into the recent legal pressure from the California DMV that forced Tesla to drop the 'Autopilot' and 'Full Self-Driving' names from its marketing. Then, we analyze a terrifying near-miss in Texas where a Tesla on autopilot accelerated through a lowered railroad gate. Finally, we balance these concerns with a surprising first-hand account of the system's impressive and highly capable performance on American roads compared to its hesitant behavior in the UK.</p>]]></itunes:summary>
+			<itunes:explicit>false</itunes:explicit>
+			<itunes:duration>00:15:00</itunes:duration>
+			<itunes:image href="https://archive.org/download/podcast_20260422_tesla_auto-pilot/2026-04-22_Tesla_Auto-pilot_Cover.png"/>
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
 	</channel>
