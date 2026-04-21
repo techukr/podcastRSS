@@ -2,55 +2,62 @@ import gspread
 import requests
 import os
 import re
-import json # Thêm thư viện này
+import json
 from oauth2client.service_account import ServiceAccountCredentials
-from github import Github
+from github import Github, Auth
 from datetime import datetime, timezone
 
 # ================= CẤU HÌNH HỆ THỐNG =================
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-REPO_NAME = "techukr/podcastRSS" 
+REPO_NAME = "USERNAME/podcast-feed" # ĐỔI THÀNH USERNAME/TÊN REPO CỦA BẠN
 FILE_PATH = "rss.xml" 
 BRANCH = "main"
 
-GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/1rkvoyKQbquFP21lzCVQhIVF-Ma31chgZqZMy50ba4_I/edit" 
-WORKSHEET_NAME = "Sheet3"
-
-# Xóa dòng CREDENTIALS_FILE cũ, thay bằng biến môi trường
+GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/edit" # ĐỔI THÀNH LINK SHEET CỦA BẠN
+WORKSHEET_NAME = "Sheet1"
 GOOGLE_CREDENTIALS_JSON = os.getenv("GOOGLE_CREDENTIALS_JSON")
 PODCAST_AUTHOR = "ACDT"
 
-# ================= HÀM XỬ LÝ =================
+# ================= HÀM XỬ LÝ (ĐÃ NÂNG CẤP LOGIC KIỂM TRA) =================
 def fetch_json_metadata(json_url):
-    if not json_url: 
-        print("-> CẢNH BÁO: Cột Archive_JSON bị trống!")
-        return {}
+    """Đọc file JSON, trả về None nếu file chưa sẵn sàng"""
     try:
-        print(f"-> Đang tải JSON từ: {json_url}")
         response = requests.get(json_url, timeout=10)
-        
         if response.status_code == 200: 
-            data = response.json()
-            print(f"-> Đọc JSON thành công! Dữ liệu: {list(data.keys())}")
-            return data
+            return response.json()
         else:
-            print(f"-> LỖI HTTP: Trạng thái {response.status_code} khi tải JSON.")
-    except requests.exceptions.JSONDecodeError:
-        print("-> LỖI GIẢI MÃ: Link cung cấp không phải là file JSON chuẩn (Có thể là link trang web HTML).")
+            print(f"  -> Lỗi: File JSON chưa truy cập được (HTTP {response.status_code})")
+            return None
     except Exception as e:
-        print(f"-> LỖI KẾT NỐI: {e}")
-    return {}
+        print(f"  -> Lỗi kết nối JSON: {e}")
+        return None
+
+def get_audio_file_size(audio_url):
+    """Kiểm tra file MP3 có tồn tại không và lấy dung lượng. Trả về None nếu file chưa sẵn sàng"""
+    try:
+        # Dùng phương thức HEAD để ping file cực nhanh mà không cần tải
+        response = requests.head(audio_url, timeout=10, allow_redirects=True)
+        # 200 là OK, 302 là Redirect (thường gặp ở Archive)
+        if response.status_code in [200, 302]: 
+            return response.headers.get('Content-Length', '1024000')
+        else:
+            print(f"  -> Lỗi: File Audio chưa sẵn sàng (HTTP {response.status_code})")
+            return None
+    except Exception as e:
+        print(f"  -> Lỗi kết nối Audio: {e}")
+        return None
+
 def update_github_rss(new_item_xml):
-    g = Github(GITHUB_TOKEN)
+    auth = Auth.Token(GITHUB_TOKEN)
+    g = Github(auth=auth)
+    
     repo = g.get_repo(REPO_NAME)
     file = repo.get_contents(FILE_PATH, ref=BRANCH)
     current_content = file.decoded_content.decode("utf-8")
     
     if "</channel>" in current_content:
-        # 1. Chèn item mới
         updated_content = current_content.replace("</channel>", f"{new_item_xml}\n\t</channel>")
         
-        # 2. Cập nhật lastBuildDate để Spotify biết có bài mới
         current_time_gmt = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
         updated_content = re.sub(r"<lastBuildDate>.*?</lastBuildDate>", f"<lastBuildDate>{current_time_gmt}</lastBuildDate>", updated_content)
             
@@ -63,21 +70,18 @@ def update_github_rss(new_item_xml):
         )
         return True
     return False
+
 def main():
     print(f"[{datetime.now()}] Checking Google Sheets...")
     
-    # Đảm bảo biến môi trường JSON đã được nạp
     if not GOOGLE_CREDENTIALS_JSON:
         print("Lỗi: Không tìm thấy biến môi trường GOOGLE_CREDENTIALS_JSON")
         return
 
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    
-    # Đọc trực tiếp từ chuỗi JSON thay vì đọc file
     creds_dict = json.loads(GOOGLE_CREDENTIALS_JSON)
     creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
     client = gspread.authorize(creds)
-    
     sheet = client.open_by_url(GOOGLE_SHEET_URL).worksheet(WORKSHEET_NAME)
     
     records = sheet.get_all_records()
@@ -92,16 +96,30 @@ def main():
             archive_cover = row.get("Archive_Cover")
             archive_json = row.get("Archive_JSON")
             
-            if not archive_audio or not archive_json: continue
-            print(f"Processing: {topic}")
+            # KIỂM TRA BƯỚC 1: Dữ liệu trong Sheets có trống không?
+            if not archive_audio or not archive_json: 
+                print(f"Bỏ qua '{topic}': Các cột link trên Sheets đang trống.")
+                continue
+                
+            print(f"Đang kiểm tra dữ liệu thực tế tập: {topic}")
             
+            # KIỂM TRA BƯỚC 2: Ping file Audio thực tế
+            audio_length = get_audio_file_size(archive_audio)
+            if not audio_length:
+                print("  -> BỎ QUA: Audio chưa sẵn sàng. Sẽ thử lại ở lần chạy sau.")
+                continue
+
+            # KIỂM TRA BƯỚC 3: Ping file JSON thực tế
             metadata = fetch_json_metadata(archive_json)
+            if not metadata:
+                print("  -> BỎ QUA: JSON chưa sẵn sàng hoặc bị lỗi cấu trúc. Sẽ thử lại ở lần chạy sau.")
+                continue
+            
+            # CHỈ KHI CẢ 2 FILE ĐỀU SẴN SÀNG, MỚI TIẾN HÀNH XÂY DỰNG RSS
             title = metadata.get("title", topic)
             raw_desc = metadata.get("description", "Nội dung đang được cập nhật.")
             description = f"<p>{raw_desc}</p>" if "<p>" not in raw_desc else raw_desc
-            
-            audio_length = metadata.get("length", "1024000") 
-            duration = metadata.get("duration", "00:15:00")
+            duration = metadata.get("duration", "00:15:00") 
             pub_date_gmt = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
             
             new_item_xml = f"""		<item>
@@ -120,7 +138,7 @@ def main():
             
             if update_github_rss(new_item_xml):
                 sheet.update_cell(row_number, list(row.keys()).index("Status") + 1, "published")
-                print(f"-> DONE!")
+                print(f"-> DONE: Đã xuất bản thành công lên RSS!")
 
 if __name__ == "__main__":
     main()
