@@ -34,12 +34,9 @@ def fetch_json_metadata(json_url):
         if response.status_code == 200: return response.json()
     except: pass
     return None
-
 def process_github_rss(action, guid, new_item_xml=None):
     """
-    Hàm xử lý file RSS trên GitHub: 
-    - action='publish': Thêm item mới
-    - action='unpublish': Xóa item dựa trên guid
+    Hàm xử lý file RSS trên GitHub
     """
     auth = Auth.Token(GITHUB_TOKEN)
     g = Github(auth=auth)
@@ -51,16 +48,15 @@ def process_github_rss(action, guid, new_item_xml=None):
     new_content = content
 
     if action == "publish":
-        # Kiểm tra xem guid đã tồn tại chưa để tránh trùng lặp
         if guid not in content:
             new_content = content.replace("</channel>", f"{new_item_xml}\n\t</channel>")
             updated = True
         else:
             print(f"  -> Bỏ qua: GUID {guid} đã tồn tại trong RSS.")
+            # ĐIỂM FIX Ở ĐÂY: Trả về True ngay lập tức để Google Sheet đổi thành 'published'
+            return True 
 
     elif action == "unpublish":
-        # Regex để tìm và xóa toàn bộ khối <item>...</item> chứa guid cụ thể
-        # Giải thích: Tìm khối <item> có chứa guid, kết thúc bằng </item> và xóa nó
         pattern = rf"\t*<item>[\s\S]*?<guid[^>]*>{guid}</guid>[\s\S]*?</item>\n?"
         if guid in content:
             new_content = re.sub(pattern, "", content)
@@ -69,9 +65,10 @@ def process_github_rss(action, guid, new_item_xml=None):
                 print(f"  -> Đã tìm thấy và xóa item có GUID: {guid}")
         else:
             print(f"  -> GUID {guid} không tồn tại trong RSS, không cần unpublish.")
+            # FIX TƯƠNG TỰ: Gỡ bài mà không thấy trên RSS thì cũng tính là gỡ rồi
+            return True
 
     if updated:
-        # Cập nhật thời gian Build mới
         current_time_gmt = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
         new_content = re.sub(r"<lastBuildDate>.*?</lastBuildDate>", f"<lastBuildDate>{current_time_gmt}</lastBuildDate>", new_content)
         
