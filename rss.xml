@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:anchor="https://anchor.fm/xmlns" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:psc="http://podlove.org/simple-chapters">
 	<channel>
-		<title><![CDATA[Chưng Cất Tương Lai]]></title>
-		<description><![CDATA[Chưng Cất Tương Lai Podcast Channel]]></description>
+		<title><![CDATA[Tech Wise Stream]]></title>
+		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
 		<lastBuildDate>Tue, 21 Apr 2026 15:58:47 GMT</lastBuildDate>
@@ -11,7 +11,7 @@
 		<copyright><![CDATA[ACDT]]></copyright>
 		<language><![CDATA[vi]]></language>
 		<itunes:author>ACDT</itunes:author>
-		<itunes:summary>Chưng Cất Tương Lai Podcast Channel</itunes:summary>
+		<itunes:summary>Tech Wise Stream Podcast Channel</itunes:summary>
 		<itunes:type>episodic</itunes:type>
 		<itunes:owner>
 			<itunes:name>ACDT</itunes:name>
