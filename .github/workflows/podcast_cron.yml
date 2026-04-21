@@ -23,6 +23,5 @@ jobs:
       - name: Run Publisher
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-          # Truyền thẳng Secret JSON vào biến môi trường cho Python đọc
-          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }} 
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
         run: python podcast_publisher.py
