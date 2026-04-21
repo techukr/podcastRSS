@@ -13,7 +13,7 @@ REPO_NAME = "techukr/podcastRSS"
 FILE_PATH = "rss.xml" 
 BRANCH = "main"
 
-GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/edit" 
+GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/1rkvoyKQbquFP21lzCVQhIVF-Ma31chgZqZMy50ba4_I/edit" 
 WORKSHEET_NAME = "Sheet3"
 GOOGLE_CREDENTIALS_JSON = os.getenv("GOOGLE_CREDENTIALS_JSON")
 PODCAST_AUTHOR = "ACDT"
