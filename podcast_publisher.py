@@ -34,6 +34,43 @@ def fetch_json_metadata(json_url):
     except: pass
     return None
 
+def replace_or_remove_item(xml_str, guid, new_item_xml=None):
+    """
+    Tìm vị trí chính xác của 1 tập dựa vào GUID.
+    - Nếu có new_item_xml: Thay thế khối XML cũ bằng khối mới (UPDATE).
+    - Nếu new_item_xml = None: Xóa hoàn toàn khối XML đó (UNPUBLISH).
+    """
+    guid_str = f">{guid}</guid>"
+    if guid_str not in xml_str:
+        return xml_str
+        
+    # Tìm điểm neo của GUID
+    guid_pos = xml_str.find(guid_str)
+    
+    # Dò ngược lên trên tìm thẻ <item> gần nhất
+    start_pos = xml_str.rfind("<item>", 0, guid_pos)
+    # Lùi lại để lấy các dấu tab/khoảng trắng cho đẹp format
+    while start_pos > 0 and xml_str[start_pos-1] in ['\t', ' ']:
+        start_pos -= 1
+        
+    # Dò xuống dưới tìm thẻ </item> gần nhất
+    end_pos = xml_str.find("</item>", guid_pos)
+    
+    if start_pos != -1 and end_pos != -1:
+        end_pos += len("</item>")
+        if end_pos < len(xml_str) and xml_str[end_pos] == '\n':
+            end_pos += 1 # Kéo theo cả dấu xuống dòng
+            
+        if new_item_xml:
+            # UPDATE
+            return xml_str[:start_pos] + new_item_xml + "\n" + xml_str[end_pos:]
+        else:
+            # DELETE
+            return xml_str[:start_pos] + xml_str[end_pos:]
+            
+    return xml_str
+
+# ================= LOGIC CHÍNH =================
 def main():
     print(f"[{datetime.now()}] Bắt đầu quy trình quét và xử lý hàng loạt...")
     
@@ -60,9 +97,8 @@ def main():
     repo = g.get_repo(REPO_NAME)
     file = repo.get_contents(FILE_PATH, ref=BRANCH)
     rss_content = file.decoded_content.decode("utf-8")
-    original_rss_content = rss_content # Lưu bản gốc để so sánh
+    original_rss_content = rss_content 
 
-    # Danh sách chờ cập nhật Sheet
     rows_to_published = []
     rows_to_draft_unlisted = []
 
@@ -73,27 +109,26 @@ def main():
         guid = str(row.get("Notebook_ID"))
         topic = row.get("Topic")
 
-        # TH 1: PUBLISH TẬP MỚI
+        # TRƯỜNG HỢP 1: PUBLISH HOẶC UPDATE TẬP MỚI
         if status == "ready_for_ai":
-            print(f"-> Xử lý Publish: {topic}")
             audio_url = row.get("Archive_Audio")
             json_url = row.get("Archive_JSON")
             cover_url = row.get("Archive_Cover")
             
             if not audio_url or not json_url: continue
             
-            if f">{guid}<" not in rss_content: # Nếu chưa có trong RSS thì mới chèn
-                audio_length = get_audio_file_size(audio_url)
-                metadata = fetch_json_metadata(json_url)
-                
-                if audio_length and metadata:
-                    title = metadata.get("title", topic)
-                    raw_desc = metadata.get("description", "Nội dung đang cập nhật.")
-                    description = f"<p>{raw_desc}</p>" if "<p>" not in raw_desc else raw_desc
-                    duration = metadata.get("duration", "00:15:00")
-                    pub_date = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
+            audio_length = get_audio_file_size(audio_url)
+            metadata = fetch_json_metadata(json_url)
+            
+            if audio_length and metadata:
+                title = metadata.get("title", topic)
+                raw_desc = metadata.get("description", "Nội dung đang cập nhật.")
+                description = f"<p>{raw_desc}</p>" if "<p>" not in raw_desc else raw_desc
+                duration = metadata.get("duration", "00:15:00")
+                pub_date = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
 
-                    item_xml = f"""		<item>
+                # Format theo đúng chuẩn Anchor với 2 tab lề
+                item_xml = f"""		<item>
 			<title><![CDATA[{title}]]></title>
 			<description><![CDATA[{description}]]></description>
 			<guid isPermaLink="false">{guid}</guid>
@@ -106,49 +141,30 @@ def main():
 			<itunes:image href="{cover_url}"/>
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>"""
-                    # Chèn vào trước thẻ đóng channel
+                
+                # Logic phân nhánh: Có rồi thì Update, Chưa có thì Insert
+                if f">{guid}</guid>" in rss_content:
+                    print(f"-> UPDATE: Cập nhật thông tin mới cho '{topic}'")
+                    rss_content = replace_or_remove_item(rss_content, guid, item_xml)
+                else:
+                    print(f"-> INSERT: Thêm mới tập '{topic}' vào RSS")
                     rss_content = rss_content.replace("</channel>", f"{item_xml}\n\t</channel>")
-                    rows_to_published.append(row_number)
-            else:
-                # Đã có trong RSS (bị kẹt trạng thái), đổi sang published luôn
+                    
                 rows_to_published.append(row_number)
 
-        # TH 2: UNPUBLISH BÀI CŨ
+        # TRƯỜNG HỢP 2: UNPUBLISH BÀI CŨ
         elif status == "draft":
-            print(f"-> Xử lý Unpublish: {topic}")
-            if f">{guid}<" in rss_content:
-                # Thuật toán cắt khối XML siêu an toàn tuyệt đối không dùng Regex
-                parts = rss_content.split('<item>')
-                new_parts = [parts[0]]
-                for part in parts[1:]:
-                    if f">{guid}<" not in part: # Nếu khúc này không chứa guid thì giữ lại
-                        new_parts.append(part)
-                rss_content = '<item>'.join(new_parts)
+            if f">{guid}</guid>" in rss_content:
+                print(f"-> UNPUBLISH: Gỡ bỏ '{topic}' khỏi RSS")
+                rss_content = replace_or_remove_item(rss_content, guid, None)
             
             rows_to_draft_unlisted.append(row_number)
 
-    # 4. ĐẨY FILE RSS ĐÃ SỬA LÊN GITHUB (CHỈ 1 LẦN)
+    # 4. ĐẨY FILE RSS ĐÃ SỬA LÊN GITHUB (NẾU CÓ THAY ĐỔI)
     if rss_content != original_rss_content:
-        # Cập nhật thời gian
         current_time_gmt = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
         rss_content = re.sub(r"<lastBuildDate>.*?</lastBuildDate>", f"<lastBuildDate>{current_time_gmt}</lastBuildDate>", rss_content)
         
         repo.update_file(
             path=FILE_PATH,
-            message=f"Batch Update RSS Feed - {datetime.now().strftime('%Y-%m-%d %H:%M')}",
-            content=rss_content,
-            sha=file.sha,
-            branch=BRANCH
-        )
-        print("Đã commit toàn bộ thay đổi lên GitHub thành công!")
-
-    # 5. CẬP NHẬT TRẠNG THÁI LÊN GOOGLE SHEETS
-    for row_num in rows_to_published:
-        sheet.update_cell(row_num, status_col_index, "published")
-    for row_num in rows_to_draft_unlisted:
-        sheet.update_cell(row_num, status_col_index, "draft_unlisted")
-
-    print("Quy trình hoàn tất!")
-
-if __name__ == "__main__":
-    main()
+            message
