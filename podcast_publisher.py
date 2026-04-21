@@ -22,13 +22,24 @@ PODCAST_AUTHOR = "ACDT"
 
 # ================= HÀM XỬ LÝ =================
 def fetch_json_metadata(json_url):
-    if not json_url: return {}
+    if not json_url: 
+        print("-> CẢNH BÁO: Cột Archive_JSON bị trống!")
+        return {}
     try:
+        print(f"-> Đang tải JSON từ: {json_url}")
         response = requests.get(json_url, timeout=10)
-        if response.status_code == 200: return response.json()
-    except: pass
+        
+        if response.status_code == 200: 
+            data = response.json()
+            print(f"-> Đọc JSON thành công! Dữ liệu: {list(data.keys())}")
+            return data
+        else:
+            print(f"-> LỖI HTTP: Trạng thái {response.status_code} khi tải JSON.")
+    except requests.exceptions.JSONDecodeError:
+        print("-> LỖI GIẢI MÃ: Link cung cấp không phải là file JSON chuẩn (Có thể là link trang web HTML).")
+    except Exception as e:
+        print(f"-> LỖI KẾT NỐI: {e}")
     return {}
-
 def update_github_rss(new_item_xml):
     g = Github(GITHUB_TOKEN)
     repo = g.get_repo(REPO_NAME)
