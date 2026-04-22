@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Wed, 22 Apr 2026 02:33:44 GMT</lastBuildDate>
+		<lastBuildDate>Wed, 22 Apr 2026 03:06:45 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -59,5 +59,44 @@
 			<itunes:image href="https://archive.org/download/podcast_20260422_telegram/2026-04-22_Telegram_Cover.png"/>
 			<itunes:episodeType>full</itunes:episodeType>
 		</item>
+			<item>
+            <title><![CDATA[Apple's Next Chapter: Tim Cook Passes the Baton to John Ternus]]></title>
+            <description><![CDATA[<p>Join us as we dive into the major leadership transition at Apple. We discuss Tim Cook's announcement to step down as CEO and transition to Executive Chairman by September 2026. We'll reflect on Cook's monumental legacy, which includes growing Apple's market capitalization from $350 billion to $4 trillion, fostering deep consumer loyalty, and building a massive $100 billion services business. Finally, we look ahead to the future under incoming CEO John Ternus, a visionary hardware engineer with a 25-year track record of shaping iconic products like the iPad, iPhone, Mac, and AirPods.</p>]]></description>
+            <guid isPermaLink="false">878271a2-2676-4158-aa2a-9262f37398b8</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Wed, 22 Apr 2026 03:06:43 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260422_apple_tim_cook/2026-04-22_apple_tim_cook_Audio.mp3" length="5604968" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Join us as we dive into the major leadership transition at Apple. We discuss Tim Cook's announcement to step down as CEO and transition to Executive Chairman by September 2026. We'll reflect on Cook's monumental legacy, which includes growing Apple's market capitalization from $350 billion to $4 trillion, fostering deep consumer loyalty, and building a massive $100 billion services business. Finally, we look ahead to the future under incoming CEO John Ternus, a visionary hardware engineer with a 25-year track record of shaping iconic products like the iPad, iPhone, Mac, and AirPods.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260422_apple_tim_cook/2026-04-22_apple_tim_cook_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[Galaxy Leaks: The Foldable Wars, AR Glasses, and A27 Upgrades]]></title>
+            <description><![CDATA[<p>Dive into the latest rumors and leaks from the tech world! We break down the unfolding competition between Apple's highly anticipated iPhone Fold and Samsung's Galaxy Z Fold 8 and Fold Wide, covering design choices, camera setups, and expected launch dates. Plus, we explore Samsung's timeline for new AI and AR smart glasses, including a more advanced model slated for 2027, and analyze how the significant design upgrades of the budget-friendly Galaxy A27 could shake up Samsung's smartphone lineup.</p>]]></description>
+            <guid isPermaLink="false">554731df-8123-4ea7-95b5-f6db4ae915c5</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Wed, 22 Apr 2026 03:06:45 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260422_galaxy_leaks/2026-04-22_galaxy_leaks_Audio.mp3" length="4603120" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Dive into the latest rumors and leaks from the tech world! We break down the unfolding competition between Apple's highly anticipated iPhone Fold and Samsung's Galaxy Z Fold 8 and Fold Wide, covering design choices, camera setups, and expected launch dates. Plus, we explore Samsung's timeline for new AI and AR smart glasses, including a more advanced model slated for 2027, and analyze how the significant design upgrades of the budget-friendly Galaxy A27 could shake up Samsung's smartphone lineup.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260422_galaxy_leaks/2026-04-22_galaxy_leaks_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[Agentic AI Economics and Anthropic's Accidental Takedowns]]></title>
+            <description><![CDATA[<p>In this episode, we explore how agentic AI workflows are breaking the economics of flat-rate developer subscriptions, forcing GitHub to pause new Copilot sign-ups and tighten usage limits [1, 2]. We also dive into Anthropic's recent blunder, where the company accidentally took down thousands of GitHub repositories while trying to scrub leaked Claude Code source code from the internet [3, 4].</p>]]></description>
+            <guid isPermaLink="false">d320a261-0c0a-41cc-aa04-18202f8e9e3d</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Wed, 22 Apr 2026 03:06:45 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260422_github_ai/2026-04-22_github_AI_Audio.mp3" length="5187427" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>In this episode, we explore how agentic AI workflows are breaking the economics of flat-rate developer subscriptions, forcing GitHub to pause new Copilot sign-ups and tighten usage limits [1, 2]. We also dive into Anthropic's recent blunder, where the company accidentally took down thousands of GitHub repositories while trying to scrub leaked Claude Code source code from the internet [3, 4].</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260422_github_ai/2026-04-22_github_AI_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
 	</channel>
 </rss>
