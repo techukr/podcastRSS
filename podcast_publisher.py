@@ -17,7 +17,6 @@ GOOGLE_SHEET_URL = "https://docs.google.com/spreadsheets/d/1rkvoyKQbquFP21lzCVQh
 WORKSHEET_NAME = "Sheet3"
 GOOGLE_CREDENTIALS_JSON = os.getenv("GOOGLE_CREDENTIALS_JSON")
 PODCAST_AUTHOR = "ACDT"
-
 # ================= HÀM XỬ LÝ DỮ LIỆU =================
 def get_audio_file_size(audio_url):
     try:
