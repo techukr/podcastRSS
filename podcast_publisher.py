@@ -24,14 +24,17 @@ def get_audio_file_size(audio_url):
         response = requests.head(audio_url, timeout=10, allow_redirects=True)
         if response.status_code in [200, 302]: 
             return response.headers.get('Content-Length', '1024000')
-    except: pass
+    except:
+        pass
     return None
 
 def fetch_json_metadata(json_url):
     try:
         response = requests.get(json_url, timeout=10)
-        if response.status_code == 200: return response.json()
-    except: pass
+        if response.status_code == 200:
+            return response.json()
+    except:
+        pass
     return None
 
 def replace_or_remove_item(xml_str, guid, new_item_xml=None):
@@ -115,7 +118,8 @@ def main():
             json_url = row.get("Archive_JSON")
             cover_url = row.get("Archive_Cover")
             
-            if not audio_url or not json_url: continue
+            if not audio_url or not json_url:
+                continue
             
             audio_length = get_audio_file_size(audio_url)
             metadata = fetch_json_metadata(json_url)
@@ -128,19 +132,19 @@ def main():
                 pub_date = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
 
                 # Format theo đúng chuẩn Anchor với 2 tab lề
-                item_xml = f"""		<item>
-			<title><![CDATA[{title}]]></title>
-			<description><![CDATA[{description}]]></description>
-			<guid isPermaLink="false">{guid}</guid>
-			<dc:creator><![CDATA[{PODCAST_AUTHOR}]]></dc:creator>
-			<pubDate>{pub_date}</pubDate>
-			<enclosure url="{audio_url}" length="{audio_length}" type="audio/mpeg"/>
-			<itunes:summary><![CDATA[{description}]]></itunes:summary>
-			<itunes:explicit>false</itunes:explicit>
-			<itunes:duration>{duration}</itunes:duration>
-			<itunes:image href="{cover_url}"/>
-			<itunes:episodeType>full</itunes:episodeType>
-		</item>"""
+                item_xml = f"""        <item>
+            <title><![CDATA[{title}]]></title>
+            <description><![CDATA[{description}]]></description>
+            <guid isPermaLink="false">{guid}</guid>
+            <dc:creator><![CDATA[{PODCAST_AUTHOR}]]></dc:creator>
+            <pubDate>{pub_date}</pubDate>
+            <enclosure url="{audio_url}" length="{audio_length}" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[{description}]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>{duration}</itunes:duration>
+            <itunes:image href="{cover_url}"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>"""
                 
                 # Logic phân nhánh: Có rồi thì Update, Chưa có thì Insert
                 if f">{guid}</guid>" in rss_content:
@@ -160,7 +164,7 @@ def main():
             
             rows_to_draft_unlisted.append(row_number)
 
-	# 4. ĐẨY FILE RSS ĐÃ SỬA LÊN GITHUB (NẾU CÓ THAY ĐỔI)
+    # 4. ĐẨY FILE RSS ĐÃ SỬA LÊN GITHUB (NẾU CÓ THAY ĐỔI)
     if rss_content != original_rss_content:
         current_time_gmt = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
         rss_content = re.sub(r"<lastBuildDate>.*?</lastBuildDate>", f"<lastBuildDate>{current_time_gmt}</lastBuildDate>", rss_content)
