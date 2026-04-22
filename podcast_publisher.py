@@ -185,5 +185,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-            path=FILE_PATH,
-            message
