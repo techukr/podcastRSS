@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Wed, 22 Apr 2026 03:06:45 GMT</lastBuildDate>
+		<lastBuildDate>Wed, 22 Apr 2026 05:23:33 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -96,6 +96,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260422_github_ai/2026-04-22_github_AI_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[Inside Meta's Push to Train AI Using Employee Keystrokes]]></title>
+            <description><![CDATA[<p>In this episode, we explore Meta's newly revealed Model Capability Initiative (MCI), a tracking tool designed to log the mouse movements, clicks, and keystrokes of its U.S. employees. Driven by CEO Mark Zuckerberg's massive $140 billion AI investment for 2026, Meta claims this data is essential for teaching AI agents how humans navigate everyday computer tasks. However, with recent layoffs, a hiring freeze, and internal fears that the company has become 'obsessed with AI,' some workers are describing this granular tracking as 'dystopian.' We break down the need for high-quality interactive AI training data, the legal hurdles preventing this tracking in Europe, and what it all means for workplace privacy.</p>]]></description>
+            <guid isPermaLink="false">127ebbdc-159c-4b92-a6f4-869d59969efb</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Wed, 22 Apr 2026 05:23:33 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260422_meta_track/2026-04-22_Meta_track_Audio.mp3" length="5232567" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>In this episode, we explore Meta's newly revealed Model Capability Initiative (MCI), a tracking tool designed to log the mouse movements, clicks, and keystrokes of its U.S. employees. Driven by CEO Mark Zuckerberg's massive $140 billion AI investment for 2026, Meta claims this data is essential for teaching AI agents how humans navigate everyday computer tasks. However, with recent layoffs, a hiring freeze, and internal fears that the company has become 'obsessed with AI,' some workers are describing this granular tracking as 'dystopian.' We break down the need for high-quality interactive AI training data, the legal hurdles preventing this tracking in Europe, and what it all means for workplace privacy.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260422_meta_track/2026-04-22_Meta_track_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
