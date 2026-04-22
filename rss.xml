@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Wed, 22 Apr 2026 22:26:52 GMT</lastBuildDate>
+		<lastBuildDate>Wed, 22 Apr 2026 23:14:24 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -161,6 +161,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://drive.google.com/file/d/1aEKj9lIJQz3U2_geY7tMy55mANNURwN2/view?usp=drivesdk"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[Why TSMC Delayed ASML: The HIDDEN $410m cost [3 Facts]]]></title>
+            <description><![CDATA[<p>TSMC has delayed the deployment of ASML's $410 million high-NA EUV machines until 2029 to protect profit margins, causing ASML shares to temporarily fall 4%. Additionally, IBM's stock faced a 13% drop after Anthropic's Claude Code threatened its COBOL mainframe infrastructure business despite a Q1 revenue beat.</p>]]></description>
+            <guid isPermaLink="false">dddfe4f5-1625-49e2-bbba-3a8298cc4c02</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Wed, 22 Apr 2026 23:14:24 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260423_tsmc_asml/2026-04-23_TSMC_ASML_Audio.mp3" length="22820080" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>TSMC has delayed the deployment of ASML's $410 million high-NA EUV machines until 2029 to protect profit margins, causing ASML shares to temporarily fall 4%. Additionally, IBM's stock faced a 13% drop after Anthropic's Claude Code threatened its COBOL mainframe infrastructure business despite a Q1 revenue beat.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260423_tsmc_asml/2026-04-23_TSMC_ASML_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
