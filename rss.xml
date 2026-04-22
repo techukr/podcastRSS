@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Wed, 22 Apr 2026 11:45:59 GMT</lastBuildDate>
+		<lastBuildDate>Wed, 22 Apr 2026 12:18:34 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -109,6 +109,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260422_claude_pro_claude_code/2026-04-22_claude_pro_claude_code_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[3 Hidden Tesla Roadster SECRETS [April 2026]]]></title>
+            <description><![CDATA[<p>Elon Musk promises the next-generation Tesla Roadster will finally be unveiled in late April 2026, but what is the reality behind the hype? We analyze the nine years of missed deadlines pushing production to 2027-2028 and the growing frustration of reservation holders struggling to refund their $50,000 deposits. Tune in as we uncover the truth behind the extreme performance claims, including a sub-one-second 0-60 mph time and the feasibility of the hovering SpaceX cold-gas thruster package.</p>]]></description>
+            <guid isPermaLink="false">7ad798d0-9593-415f-9411-aa818ab14d08</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Wed, 22 Apr 2026 12:18:34 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260422_tesla_roadster/2026-04-22_tesla_roadster_Audio.mp3" length="4660798" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Elon Musk promises the next-generation Tesla Roadster will finally be unveiled in late April 2026, but what is the reality behind the hype? We analyze the nine years of missed deadlines pushing production to 2027-2028 and the growing frustration of reservation holders struggling to refund their $50,000 deposits. Tune in as we uncover the truth behind the extreme performance claims, including a sub-one-second 0-60 mph time and the feasibility of the hovering SpaceX cold-gas thruster package.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260422_tesla_roadster/2026-04-22_tesla_roadster_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
