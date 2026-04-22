@@ -160,7 +160,7 @@ def main():
             
             rows_to_draft_unlisted.append(row_number)
 
-    # 4. ĐẨY FILE RSS ĐÃ SỬA LÊN GITHUB (NẾU CÓ THAY ĐỔI)
+	# 4. ĐẨY FILE RSS ĐÃ SỬA LÊN GITHUB (NẾU CÓ THAY ĐỔI)
     if rss_content != original_rss_content:
         current_time_gmt = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
         rss_content = re.sub(r"<lastBuildDate>.*?</lastBuildDate>", f"<lastBuildDate>{current_time_gmt}</lastBuildDate>", rss_content)
