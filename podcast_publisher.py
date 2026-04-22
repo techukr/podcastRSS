@@ -168,7 +168,6 @@ def main():
     if rss_content != original_rss_content:
         current_time_gmt = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
         rss_content = re.sub(r"<lastBuildDate>.*?</lastBuildDate>", f"<lastBuildDate>{current_time_gmt}</lastBuildDate>", rss_content)
-        
         repo.update_file(
             path=FILE_PATH,
             message=f"Batch Update RSS Feed - {datetime.now().strftime('%Y-%m-%d %H:%M')}",
