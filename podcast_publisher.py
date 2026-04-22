@@ -167,4 +167,24 @@ def main():
         
         repo.update_file(
             path=FILE_PATH,
+            message=f"Batch Update RSS Feed - {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+            content=rss_content,
+            sha=file.sha,
+            branch=BRANCH
+        )
+        print("Đã commit toàn bộ thay đổi lên GitHub thành công!")
+    else:
+        print("Không có thay đổi nào trên file RSS.")
+
+    # 5. CẬP NHẬT TRẠNG THÁI LÊN GOOGLE SHEETS
+    for row_num in rows_to_published:
+        sheet.update_cell(row_num, status_col_index, "published")
+    for row_num in rows_to_draft_unlisted:
+        sheet.update_cell(row_num, status_col_index, "draft_unlisted")
+
+    print("Quy trình hoàn tất!")
+
+if __name__ == "__main__":
+    main()
+            path=FILE_PATH,
             message
