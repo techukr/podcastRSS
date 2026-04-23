@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Wed, 22 Apr 2026 23:14:24 GMT</lastBuildDate>
+		<lastBuildDate>Thu, 23 Apr 2026 04:41:20 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -174,6 +174,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260423_tsmc_asml/2026-04-23_TSMC_ASML_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[3 HIDDEN PS5 price drops [April 2026]]]></title>
+            <description><![CDATA[<p>An analysis of PlayStation 5 pricing shifts and how to avoid the April 2nd price hikes of up to $150. Discover three distinct strategies for savings: exploiting a rare $200 discount on the PS5 Slim Digital Edition at $399, securing a refurbished original model for $399, and leveraging Amazon's $100 discount on the $649.99 PS5 Pro.</p>]]></description>
+            <guid isPermaLink="false">b09661fe-2bb6-467c-8126-c6426e20aca1</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Thu, 23 Apr 2026 04:41:20 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260423_sonys_playstation_5_is_200_off/2026-04-23_Sony%E2%80%99s_PlayStation_5_is_%24200_off_Audio.mp3" length="15513736" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>An analysis of PlayStation 5 pricing shifts and how to avoid the April 2nd price hikes of up to $150. Discover three distinct strategies for savings: exploiting a rare $200 discount on the PS5 Slim Digital Edition at $399, securing a refurbished original model for $399, and leveraging Amazon's $100 discount on the $649.99 PS5 Pro.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260423_sonys_playstation_5_is_200_off/2026-04-23_Sony%E2%80%99s_PlayStation_5_is_%24200_off_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
