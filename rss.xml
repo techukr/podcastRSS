@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Thu, 23 Apr 2026 22:54:45 GMT</lastBuildDate>
+		<lastBuildDate>Thu, 23 Apr 2026 22:58:27 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -226,6 +226,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260424_reddit_down/2026-04-24_reddit_down_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[The HIDDEN NOAA Golden Orb [3 Breakthroughs]]]></title>
+            <description><![CDATA[<p>After years of speculation, the mysterious 'golden orb' discovered two miles deep in the Gulf of Alaska has finally been identified. Join us as we explore how NOAA and Smithsonian scientists used whole-genome sequencing to reveal its true origin as the base of a giant deep-sea anemone, Relicanthus daphneae.</p>]]></description>
+            <guid isPermaLink="false">62cb8175-177d-451f-8d0c-91bbf72965fc</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Thu, 23 Apr 2026 22:58:27 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260424_noaa_golden_orb_identification/2026-04-24_noaa_golden_orb_identification_Audio.mp3" length="19023339" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>After years of speculation, the mysterious 'golden orb' discovered two miles deep in the Gulf of Alaska has finally been identified. Join us as we explore how NOAA and Smithsonian scientists used whole-genome sequencing to reveal its true origin as the base of a giant deep-sea anemone, Relicanthus daphneae.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260424_noaa_golden_orb_identification/2026-04-24_noaa_golden_orb_identification_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
