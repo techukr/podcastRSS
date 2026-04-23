@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Thu, 23 Apr 2026 07:15:40 GMT</lastBuildDate>
+		<lastBuildDate>Thu, 23 Apr 2026 22:54:25 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -200,6 +200,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260423_capital_one_425_million_settlement/2026-04-23_capital_one_%24425_million_settlement_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[3 HIDDEN reasons Xbox Game Pass cut prices [2026 Update]]]></title>
+            <description><![CDATA[<p>Xbox just slashed Game Pass Ultimate prices by nearly 25% to $22.99, but there's a major catch: day-one access to future Call of Duty games is officially dead. In this episode, we dive into the leaked memo from new Xbox boss Asha Sharma revealing the service was simply 'too expensive,' explore how this price drop is reigniting the PS Plus console wars, and discuss what this strategic shift means for Microsoft's upcoming Project Helix console.</p>]]></description>
+            <guid isPermaLink="false">9317bf2a-a341-456c-a324-3d1ecc971460</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Thu, 23 Apr 2026 22:54:24 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260423_xbox_game_pass_price/2026-04-23_xbox_game_pass_price_Audio.mp3" length="17761311" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Xbox just slashed Game Pass Ultimate prices by nearly 25% to $22.99, but there's a major catch: day-one access to future Call of Duty games is officially dead. In this episode, we dive into the leaked memo from new Xbox boss Asha Sharma revealing the service was simply 'too expensive,' explore how this price drop is reigniting the PS Plus console wars, and discuss what this strategic shift means for Microsoft's upcoming Project Helix console.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260423_xbox_game_pass_price/2026-04-23_xbox_game_pass_price_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
