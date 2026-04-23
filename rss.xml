@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Thu, 23 Apr 2026 22:54:25 GMT</lastBuildDate>
+		<lastBuildDate>Thu, 23 Apr 2026 22:54:45 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -213,6 +213,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260423_xbox_game_pass_price/2026-04-23_xbox_game_pass_price_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[Why Reddit BROKE 3 times [April 2026]]]></title>
+            <description><![CDATA[<p>Reddit experienced major infrastructure challenges in April 2026, causing 3 separate app outages in a single week. We analyze the massive 58-minute disruption, Downdetector reports showing 70 percent of users locked out of the app, and how to verify real-time system status when the platform goes down.</p>]]></description>
+            <guid isPermaLink="false">b9999f3b-ac0d-4913-9173-b6cb9286daca</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Thu, 23 Apr 2026 22:54:45 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260424_reddit_down/2026-04-24_reddit_down_Audio.mp3" length="14120051" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Reddit experienced major infrastructure challenges in April 2026, causing 3 separate app outages in a single week. We analyze the massive 58-minute disruption, Downdetector reports showing 70 percent of users locked out of the app, and how to verify real-time system status when the platform goes down.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260424_reddit_down/2026-04-24_reddit_down_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
