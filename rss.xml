@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Fri, 24 Apr 2026 05:36:00 GMT</lastBuildDate>
+		<lastBuildDate>Fri, 24 Apr 2026 23:37:43 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -265,6 +265,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260424_ai/2026-04-24_AI_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[7 Hidden iOS 26 SECRETS [April 2026]]]></title>
+            <description><![CDATA[<p>Dive into the newest features of the massive iOS 26.4 and upcoming 26.5 updates. We uncover step-by-step methods to reduce the polarizing Liquid Glass interface, explore the addition of end-to-end encrypted RCS messaging, and highlight new Tesla app integrations. Discover Apple Music's Playlist Playground, Apple Podcasts video support, and App Store subscription changes.</p>]]></description>
+            <guid isPermaLink="false">14f8affc-c228-4e16-af43-37809c917556</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Fri, 24 Apr 2026 23:37:43 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260425_ios_26/2026-04-25_ios_26_Audio.mp3" length="17524955" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Dive into the newest features of the massive iOS 26.4 and upcoming 26.5 updates. We uncover step-by-step methods to reduce the polarizing Liquid Glass interface, explore the addition of end-to-end encrypted RCS messaging, and highlight new Tesla app integrations. Discover Apple Music's Playlist Playground, Apple Podcasts video support, and App Store subscription changes.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260425_ios_26/2026-04-25_ios_26_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
