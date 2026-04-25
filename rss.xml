@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Fri, 24 Apr 2026 23:37:43 GMT</lastBuildDate>
+		<lastBuildDate>Sat, 25 Apr 2026 00:17:38 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -278,6 +278,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260425_ios_26/2026-04-25_ios_26_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[Warning: The REAL mobile hotspot ban [3 Updates]]]></title>
+            <description><![CDATA[<p>The FCC has quietly expanded its foreign-made Wi-Fi router ban to include consumer-grade portable hotspots and 5G residential internet gateways. We break down 3 critical updates: how this hardware shift impacts T-Mobile's fixed wireless supply chain, why your current smartphone tethering and existing devices remain safe, and the significance of the 18-month conditional exemptions granted to US companies like Amazon's eero and Netgear. Tune in to understand why future budget-friendly travel routers might face reduced features and higher prices.</p>]]></description>
+            <guid isPermaLink="false">4f902513-7ef4-43cd-a318-11b0c0a93f1f</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Sat, 25 Apr 2026 00:17:38 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260425_fcc_wifi_ban/2026-04-25_FCC_wifi_ban_Audio.mp3" length="18002683" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>The FCC has quietly expanded its foreign-made Wi-Fi router ban to include consumer-grade portable hotspots and 5G residential internet gateways. We break down 3 critical updates: how this hardware shift impacts T-Mobile's fixed wireless supply chain, why your current smartphone tethering and existing devices remain safe, and the significance of the 18-month conditional exemptions granted to US companies like Amazon's eero and Netgear. Tune in to understand why future budget-friendly travel routers might face reduced features and higher prices.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260425_fcc_wifi_ban/2026-04-25_FCC_wifi_ban_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
