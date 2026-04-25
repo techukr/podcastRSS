@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Sat, 25 Apr 2026 01:11:01 GMT</lastBuildDate>
+		<lastBuildDate>Sat, 25 Apr 2026 07:07:06 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -304,6 +304,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260425_ios_update/2026-04-25_ios_update_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[3 SECRET iPhone Fold features [Fall 2026]]]></title>
+            <description><![CDATA[<p>Dive into the latest supply chain leaks surrounding Apple's highly anticipated iPhone Fold, expected to launch in Fall 2026 alongside the iPhone 18 Pro lineup. We break down three major features coming to the ultra-thin device, including the return of Touch ID, a dedicated Camera Control button, and a completely eSIM-only design. Plus, find out why Apple is limiting initial production to just 10 million units and slapping a $2,399 price tag on its first-ever foldable.</p>]]></description>
+            <guid isPermaLink="false">3215105d-c985-443d-93e2-fd68abf69f90</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Sat, 25 Apr 2026 07:07:06 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260425_foldable_smartphone/2026-04-25_Foldable_Smartphone_Audio.mp3" length="16733758" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Dive into the latest supply chain leaks surrounding Apple's highly anticipated iPhone Fold, expected to launch in Fall 2026 alongside the iPhone 18 Pro lineup. We break down three major features coming to the ultra-thin device, including the return of Touch ID, a dedicated Camera Control button, and a completely eSIM-only design. Plus, find out why Apple is limiting initial production to just 10 million units and slapping a $2,399 price tag on its first-ever foldable.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260425_foldable_smartphone/2026-04-25_Foldable_Smartphone_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
