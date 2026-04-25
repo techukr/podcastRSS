@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Sat, 25 Apr 2026 07:07:06 GMT</lastBuildDate>
+		<lastBuildDate>Sat, 25 Apr 2026 07:07:50 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -317,6 +317,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260425_foldable_smartphone/2026-04-25_Foldable_Smartphone_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[3 HIDDEN Huawei Pura X Max breakthroughs [April 2026]]]></title>
+            <description><![CDATA[<p>Uncover 3 hidden hardware breakthroughs of the newly launched Huawei Pura X Max. We analyze its 7.7-inch LTPO2 OLED internal display, M-Pen 3 Mini stylus integration, and ultra-fast 66W charging powered by the Kirin 9030 Pro. Plus, discover how its durable Kunlun Glass 2 build and 50MP variable aperture camera stack up against the Google Pixel 10 Pro Fold in the 2026 premium foldable market.</p>]]></description>
+            <guid isPermaLink="false">6d20d157-5b48-498b-9166-8e23a401a360</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Sat, 25 Apr 2026 07:07:50 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260425_huawei_pura_x_max/2026-04-25_HUAWEI_Pura_X_MAX_Audio.mp3" length="23186839" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Uncover 3 hidden hardware breakthroughs of the newly launched Huawei Pura X Max. We analyze its 7.7-inch LTPO2 OLED internal display, M-Pen 3 Mini stylus integration, and ultra-fast 66W charging powered by the Kirin 9030 Pro. Plus, discover how its durable Kunlun Glass 2 build and 50MP variable aperture camera stack up against the Google Pixel 10 Pro Fold in the 2026 premium foldable market.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260425_huawei_pura_x_max/2026-04-25_HUAWEI_Pura_X_MAX_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
