@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Sat, 25 Apr 2026 22:42:06 GMT</lastBuildDate>
+		<lastBuildDate>Sun, 26 Apr 2026 04:44:33 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -356,6 +356,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260426_oracle_data_center/2026-04-26_Oracle_Data_Center_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[3 Hidden Steam Machine leaks: The REAL cost [April 2026]]]></title>
+            <description><![CDATA[<p>Analysis of the latest Valve hardware leaks from April 2026. This episode breaks down the leaked $99 Steam Controller price and its implications for the upcoming Steam Machine's cost. It also explores rumored release delays linked to high RAM prices, the appearance of official Komodo Station store pages in Asia, and how recent SteamOS 3.8 Linux optimizations are outperforming Windows gaming PCs in benchmark tests by up to 32 percent.</p>]]></description>
+            <guid isPermaLink="false">299bf654-6bd7-415d-8df0-266cb0ed4a06</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Sun, 26 Apr 2026 04:44:33 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260426_valve_steam_machine/2026-04-26_valve_steam_machine_Audio.mp3" length="12352083" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Analysis of the latest Valve hardware leaks from April 2026. This episode breaks down the leaked $99 Steam Controller price and its implications for the upcoming Steam Machine's cost. It also explores rumored release delays linked to high RAM prices, the appearance of official Komodo Station store pages in Asia, and how recent SteamOS 3.8 Linux optimizations are outperforming Windows gaming PCs in benchmark tests by up to 32 percent.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260426_valve_steam_machine/2026-04-26_valve_steam_machine_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
