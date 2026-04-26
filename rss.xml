@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Sun, 26 Apr 2026 05:50:50 GMT</lastBuildDate>
+		<lastBuildDate>Sun, 26 Apr 2026 14:36:58 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -382,6 +382,32 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260426_perplexity/2026-04-26_Perplexity_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[7 HIDDEN truths of Viber's super app [April 2026]]]></title>
+            <description><![CDATA[<p>This episode explores Rakuten Viber's aggressive push to become a super app, highlighted by its Viber Pay rollout across 7 markets and reaching 1 million active wallets. While executives champion this embedded finance infrastructure, critics argue the platform is becoming bloated with extra tabs and crypto ads, contrasting it with the streamlined simplicity of privacy-first alternatives like Signal. We also break down critical insights from Viber's CISO on how the messaging giant balances end-to-end encryption with AI-driven abuse prevention to combat deepfakes, scams, and social engineering without compromising user privacy.</p>]]></description>
+            <guid isPermaLink="false">de061d32-8023-474b-a6c3-edb394668963</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Sun, 26 Apr 2026 14:36:58 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260426_viber/2026-04-26_viber_Audio.mp3" length="25806189" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>This episode explores Rakuten Viber's aggressive push to become a super app, highlighted by its Viber Pay rollout across 7 markets and reaching 1 million active wallets. While executives champion this embedded finance infrastructure, critics argue the platform is becoming bloated with extra tabs and crypto ads, contrasting it with the streamlined simplicity of privacy-first alternatives like Signal. We also break down critical insights from Viber's CISO on how the messaging giant balances end-to-end encryption with AI-driven abuse prevention to combat deepfakes, scams, and social engineering without compromising user privacy.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260426_viber/2026-04-26_viber_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[3 reasons Xbox is FINALLY back [April 2026]]]></title>
+            <description><![CDATA[<p>We break down the major shifts bringing lapsed fans back to the platform: CEO Asha Sharma's community engagement, the recent Game Pass price reductions, and Double Fine's new multiplayer hit, Kiln. We also cover Sony's March 2026 US sales dominance and the accidental $99 Steam Controller review leak.</p>]]></description>
+            <guid isPermaLink="false">15a9cfd2-029a-4312-927b-2be5e122a943</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Sun, 26 Apr 2026 14:36:58 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260426_xbox/2026-04-26_xbox_Audio.mp3" length="21399437" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>We break down the major shifts bringing lapsed fans back to the platform: CEO Asha Sharma's community engagement, the recent Game Pass price reductions, and Double Fine's new multiplayer hit, Kiln. We also cover Sony's March 2026 US sales dominance and the accidental $99 Steam Controller review leak.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260426_xbox/2026-04-26_xbox_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
