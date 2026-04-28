@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Tue, 28 Apr 2026 12:13:26 GMT</lastBuildDate>
+		<lastBuildDate>Tue, 28 Apr 2026 12:45:52 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -473,6 +473,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260428_google/2026-04-28_google_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[3 SECRET Nintendo updates ]]></title>
+            <description><![CDATA[<p>In this April 2026 update, we uncover the latest insider Nintendo shifts. Discover the rumored Metroid movie pitch involving Sony and Universal, learn the verified fate of the original SNES Star Fox puppets, and get the warning about the May 3rd closure of the Mine-Cart Madness attraction at Universal Epic Universe. Plus, we highlight the best Switch game deals during Amazon Gaming Week.</p>]]></description>
+            <guid isPermaLink="false">6b1827a6-1d95-46f9-975e-da36dc00ce39</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Tue, 28 Apr 2026 12:45:52 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260428_nintendo/2026-04-28_nintendo_Audio.mp3" length="14042937" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>In this April 2026 update, we uncover the latest insider Nintendo shifts. Discover the rumored Metroid movie pitch involving Sony and Universal, learn the verified fate of the original SNES Star Fox puppets, and get the warning about the May 3rd closure of the Mine-Cart Madness attraction at Universal Epic Universe. Plus, we highlight the best Switch game deals during Amazon Gaming Week.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260428_nintendo/2026-04-28_nintendo_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
