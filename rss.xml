@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Tue, 28 Apr 2026 02:06:58 GMT</lastBuildDate>
+		<lastBuildDate>Tue, 28 Apr 2026 02:15:37 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -447,6 +447,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260428_spacex/2026-04-28_SpaceX_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[Tesla's 3 HIDDEN Physical AI Hubs ]]></title>
+            <description><![CDATA[<p>In this episode, we dive into the 14 permits revealing Tesla's mystery $14.4 million facility near the Reno airport. Could this 'pilot line' handling H-2 hazardous materials be a new micro factory for Hardware 4, unsupervised FSD Robotaxis, or Optimus Physical AI? We break down the clues pointing to 550 new jobs and major autonomous upgrades across Austin, Fremont, and Reno. Plus, we report on the ongoing investigation of a tragic crash involving a 2026 Tesla sedan in Colleton County, South Carolina.</p>]]></description>
+            <guid isPermaLink="false">35ca32b6-a1ab-4ce1-968f-5d0a0575d91e</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Tue, 28 Apr 2026 02:15:37 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260428_tesla/2026-04-28_Tesla_Audio.mp3" length="16956322" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>In this episode, we dive into the 14 permits revealing Tesla's mystery $14.4 million facility near the Reno airport. Could this 'pilot line' handling H-2 hazardous materials be a new micro factory for Hardware 4, unsupervised FSD Robotaxis, or Optimus Physical AI? We break down the clues pointing to 550 new jobs and major autonomous upgrades across Austin, Fremont, and Reno. Plus, we report on the ongoing investigation of a tragic crash involving a 2026 Tesla sedan in Colleton County, South Carolina.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260428_tesla/2026-04-28_Tesla_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
