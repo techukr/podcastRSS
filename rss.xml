@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Thu, 30 Apr 2026 02:15:04 GMT</lastBuildDate>
+		<lastBuildDate>Thu, 30 Apr 2026 06:01:36 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -525,6 +525,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260430_chatgpt/2026-04-30_ChatGPT_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[3 HIDDEN flaws: Lenovo Slim 7 [April 2026]]]></title>
+            <description><![CDATA[<p>In this episode, we break down Brandon Miniman's review of the impossibly light 2.15lb Lenovo Yoga Slim 7 Ultra. While it offers a feather-light design and rapid charging, we uncover the device's hidden trade-offs, including a painfully reflective OLED screen, mediocre battery life, and an underwhelming Intel Core Ultra 7 355 processor that struggles against ARM-based rivals. We also highlight recent Lenovo IdeaPad Slim 3 deals that are dramatically undercutting the MacBook Neo.</p>]]></description>
+            <guid isPermaLink="false">3be918ff-9fbb-4093-a4e2-fc5d6156e8d0</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Thu, 30 Apr 2026 06:01:36 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260429_lenovo_laptop/2026-04-29_lenovo_laptop_Audio.mp3" length="21764942" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>In this episode, we break down Brandon Miniman's review of the impossibly light 2.15lb Lenovo Yoga Slim 7 Ultra. While it offers a feather-light design and rapid charging, we uncover the device's hidden trade-offs, including a painfully reflective OLED screen, mediocre battery life, and an underwhelming Intel Core Ultra 7 355 processor that struggles against ARM-based rivals. We also highlight recent Lenovo IdeaPad Slim 3 deals that are dramatically undercutting the MacBook Neo.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260429_lenovo_laptop/2026-04-29_lenovo_laptop_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
