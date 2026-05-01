@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Fri, 01 May 2026 02:34:29 GMT</lastBuildDate>
+		<lastBuildDate>Fri, 01 May 2026 07:07:19 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -603,6 +603,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260501_nvidia_blackwell/2026-05-01_Nvidia_Blackwell_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[Why Nemotron 3 is the SECRET to 9x faster agents ]]></title>
+            <description><![CDATA[<p>In this episode, we explore NVIDIA's launch of the Nemotron 3 Nano Omni model. Discover how this 30B-A3B hybrid mixture-of-experts architecture acts as the ultimate multimodal perception sub-agent, unifying vision, audio, and language into a single loop. By eliminating fragmented model stacks, Nemotron 3 delivers up to 9x higher throughput for agentic workflows like document intelligence and computer use. Tune in to learn how enterprises are deploying this highly efficient open model today via Amazon SageMaker JumpStart, NVIDIA NIM, and Hugging Face.</p>]]></description>
+            <guid isPermaLink="false">f8d991c1-8cd7-4be9-9362-e6817ddc782f</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Fri, 01 May 2026 07:07:19 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260501_nvidia_model/2026-05-01_Nvidia_model_Audio.mp3" length="21903496" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>In this episode, we explore NVIDIA's launch of the Nemotron 3 Nano Omni model. Discover how this 30B-A3B hybrid mixture-of-experts architecture acts as the ultimate multimodal perception sub-agent, unifying vision, audio, and language into a single loop. By eliminating fragmented model stacks, Nemotron 3 delivers up to 9x higher throughput for agentic workflows like document intelligence and computer use. Tune in to learn how enterprises are deploying this highly efficient open model today via Amazon SageMaker JumpStart, NVIDIA NIM, and Hugging Face.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260501_nvidia_model/2026-05-01_Nvidia_model_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
