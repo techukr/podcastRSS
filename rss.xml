@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Fri, 01 May 2026 07:07:19 GMT</lastBuildDate>
+		<lastBuildDate>Sat, 02 May 2026 15:29:23 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -616,6 +616,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260501_nvidia_model/2026-05-01_Nvidia_model_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[3 SECRETS to how YouTube finally won tech & sports ]]></title>
+            <description><![CDATA[<p>This episode explores three major ways YouTube is reshaping entertainment in 2026. We break down YouTube Premium's subscriber revenue officially surpassing ad revenue, Terry Crews' new 18-episode Cadillac F1 series 'Crews Control', and Ryan Ruffels securing a PGA Tour sponsor exemption by winning the YouTube golf tournament 'The Q'.</p>]]></description>
+            <guid isPermaLink="false">2a9145e6-82ec-402f-9d98-27e788477d25</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Sat, 02 May 2026 15:29:23 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260502_youtube/2026-05-02_YouTube_Audio.mp3" length="18203303" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>This episode explores three major ways YouTube is reshaping entertainment in 2026. We break down YouTube Premium's subscriber revenue officially surpassing ad revenue, Terry Crews' new 18-episode Cadillac F1 series 'Crews Control', and Ryan Ruffels securing a PGA Tour sponsor exemption by winning the YouTube golf tournament 'The Q'.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260502_youtube/2026-05-02_YouTube_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
