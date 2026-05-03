@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Sat, 02 May 2026 15:29:23 GMT</lastBuildDate>
+		<lastBuildDate>Sun, 03 May 2026 13:38:33 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -629,6 +629,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260502_youtube/2026-05-02_YouTube_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[The SECRET AI Anime Blueprint [3 Updates]]]></title>
+            <description><![CDATA[<p>We reveal the 2026 insider shifts in AI anime generation. Discover the breakthrough text-to-episode workflows transforming the industry, how creators are leveraging Microsoft Copilot for rapid character design, and the verified reason WIT Studio was forced to remove generative AI from the Ascendance of a Bookworm Season 4 opening.</p>]]></description>
+            <guid isPermaLink="false">02f318eb-552d-43ef-b097-ad8a82449582</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Sun, 03 May 2026 13:38:33 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260503_anime_ai/2026-05-03_anime_ai_Audio.mp3" length="17374490" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>We reveal the 2026 insider shifts in AI anime generation. Discover the breakthrough text-to-episode workflows transforming the industry, how creators are leveraging Microsoft Copilot for rapid character design, and the verified reason WIT Studio was forced to remove generative AI from the Ascendance of a Bookworm Season 4 opening.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260503_anime_ai/2026-05-03_anime_ai_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
