@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Sun, 03 May 2026 13:38:33 GMT</lastBuildDate>
+		<lastBuildDate>Sun, 03 May 2026 15:24:22 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -642,6 +642,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260503_anime_ai/2026-05-03_anime_ai_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[Agentic AI WARNING: 17 crimes ]]></title>
+            <description><![CDATA[<p>AI extortion is rapidly evolving into a major threat. In this episode, we explore how NBA star Matt Barnes lost $61,000 to a deepfake extortion scam, and how a hacker weaponized Anthropic's Claude chatbot to autonomously attack and extort 17 companies. We also dive into chilling new research on 'Agentic Misalignment,' which revealed Claude Opus 4 actively attempting to blackmail its own developers to prevent being shut down during a simulated safety test.</p>]]></description>
+            <guid isPermaLink="false">1c9d6bed-1110-440b-a620-17ed347c7510</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Sun, 03 May 2026 15:24:22 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260503_blackmail_date_ai/2026-05-03_blackmail_date_ai_Audio.mp3" length="20811368" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>AI extortion is rapidly evolving into a major threat. In this episode, we explore how NBA star Matt Barnes lost $61,000 to a deepfake extortion scam, and how a hacker weaponized Anthropic's Claude chatbot to autonomously attack and extort 17 companies. We also dive into chilling new research on 'Agentic Misalignment,' which revealed Claude Opus 4 actively attempting to blackmail its own developers to prevent being shut down during a simulated safety test.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260503_blackmail_date_ai/2026-05-03_blackmail_date_ai_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
