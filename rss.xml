@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Tue, 05 May 2026 03:48:02 GMT</lastBuildDate>
+		<lastBuildDate>Tue, 05 May 2026 09:01:53 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -707,6 +707,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260505_ai_plan/2026-05-05_ai_plan_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[Warning: The REAL Agentic AI Shift [3 Facts]]]></title>
+            <description><![CDATA[<p>Dive into the debate between Nvidia CEO Jensen Huang and Anthropic CEO Dario Amodei over the future of white-collar work. While Amodei warns AI could wipe out half of entry-level roles, Huang dismisses extreme forecasts as unhelpful, noting that AI has created over 500,000 new jobs in the last two years. Additionally, we explore Anthropic's new partnership with Infosys to build and deploy Agentic AI tools, like Claude Code, to modernize workflows in complex, regulated industries such as telecom and finance.</p>]]></description>
+            <guid isPermaLink="false">7a3a1afd-2b03-4cac-932d-d25d00925995</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Tue, 05 May 2026 09:01:53 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260505_dario_amode/2026-05-05_dario_amode_Audio.mp3" length="10520168" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Dive into the debate between Nvidia CEO Jensen Huang and Anthropic CEO Dario Amodei over the future of white-collar work. While Amodei warns AI could wipe out half of entry-level roles, Huang dismisses extreme forecasts as unhelpful, noting that AI has created over 500,000 new jobs in the last two years. Additionally, we explore Anthropic's new partnership with Infosys to build and deploy Agentic AI tools, like Claude Code, to modernize workflows in complex, regulated industries such as telecom and finance.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260505_dario_amode/2026-05-05_dario_amode_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
