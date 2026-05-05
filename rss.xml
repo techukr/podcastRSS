@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Mon, 04 May 2026 04:01:14 GMT</lastBuildDate>
+		<lastBuildDate>Tue, 05 May 2026 03:36:48 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -668,6 +668,32 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260504_nintendo/2026-05-04_Nintendo_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[5 SECRET Physical AI shifts [Sports 2026]]]></title>
+            <description><![CDATA[<p>Explore the convergence of technology and athletics in 2026. This episode breaks down Carnegie Mellon University's NFL draft week showcase of Physical AI—featuring wearable exoskeletons and humanoid passing robots—alongside the GeniusIQ platform powering Liga MX's new semi-automated offside technology and augmented broadcasts.</p>]]></description>
+            <guid isPermaLink="false">dd085f90-f824-4d33-9d42-31263cff1af9</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Tue, 05 May 2026 03:36:47 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260505_ai_sport/2026-05-05_ai_sport_Audio.mp3" length="18039045" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Explore the convergence of technology and athletics in 2026. This episode breaks down Carnegie Mellon University's NFL draft week showcase of Physical AI—featuring wearable exoskeletons and humanoid passing robots—alongside the GeniusIQ platform powering Liga MX's new semi-automated offside technology and augmented broadcasts.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260505_ai_sport/2026-05-05_ai_sport_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[3 WARNINGS about AI judges ]]></title>
+            <description><![CDATA[<p>Los Angeles County civil courts are now piloting 'Learned Hand', a controversial artificial intelligence tool designed to summarize legal motions and draft tentative rulings. We explore the implementation of this 'judicial sous chef' and unpack three critical warnings from legal experts regarding algorithmic bias, hallucinated case citations, and the potential erosion of public trust in the justice system.</p>]]></description>
+            <guid isPermaLink="false">11fa5cab-6ae7-45d4-8f8d-9ffb3b5aca76</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Tue, 05 May 2026 03:36:48 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260505_ai_la/2026-05-05_ai_la_Audio.mp3" length="17661001" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Los Angeles County civil courts are now piloting 'Learned Hand', a controversial artificial intelligence tool designed to summarize legal motions and draft tentative rulings. We explore the implementation of this 'judicial sous chef' and unpack three critical warnings from legal experts regarding algorithmic bias, hallucinated case citations, and the potential erosion of public trust in the justice system.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260505_ai_la/2026-05-05_ai_la_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
