@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Tue, 05 May 2026 09:01:53 GMT</lastBuildDate>
+		<lastBuildDate>Wed, 06 May 2026 01:57:53 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -720,6 +720,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260505_dario_amode/2026-05-05_dario_amode_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[The SECRET behind Agentic AI [3 Breakthroughs]]]></title>
+            <description><![CDATA[<p>In this episode, we analyze the May 2026 surge in Agentic AI deployments across major enterprise platforms. We break down Cisco's launch of Galaxy Mode for AgenticOps to automate network management, IBM Consulting's release of the enterprise-scale Enterprise Advantage platform natively on AWS, and SAP's acquisition of the Dremio data lakehouse to prepare fragmented data for AI agents. Discover how these three developments are transitioning the tech industry from passive tools to autonomous, reasoning workflows.</p>]]></description>
+            <guid isPermaLink="false">2362824b-149d-404f-a1de-f15b9044fa5c</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Wed, 06 May 2026 01:57:53 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260505_agentic_ai/2026-05-05_agentic_ai_Audio.mp3" length="16479221" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>In this episode, we analyze the May 2026 surge in Agentic AI deployments across major enterprise platforms. We break down Cisco's launch of Galaxy Mode for AgenticOps to automate network management, IBM Consulting's release of the enterprise-scale Enterprise Advantage platform natively on AWS, and SAP's acquisition of the Dremio data lakehouse to prepare fragmented data for AI agents. Discover how these three developments are transitioning the tech industry from passive tools to autonomous, reasoning workflows.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260505_agentic_ai/2026-05-05_agentic_ai_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
