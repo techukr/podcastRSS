@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Sat, 09 May 2026 04:56:08 GMT</lastBuildDate>
+		<lastBuildDate>Sun, 10 May 2026 03:13:04 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -772,6 +772,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260509_human_ai_music/2026-05-09_Human_AI_music_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[7 Hidden AOI Optics SECRETS [2026 Blueprint]]]></title>
+            <description><![CDATA[<p>Dive into the hidden secrets behind Applied Optoelectronics Inc. (AOI) and its massive rise in the AI infrastructure space. We unpack AOI's $20.9 million Texas Semiconductor Innovation Fund grant, their 210,000-square-foot Sugar Land expansion, and the ongoing push for 'Made in America' manufacturing. Discover how their advanced 800G and 1.6T transceivers, alongside the breakthrough 25dBm Ultra-High Power ELSFP, are solving the extreme power and bandwidth demands of modern hyperscaler GPU clusters.</p>]]></description>
+            <guid isPermaLink="false">426579df-4036-4f68-8f44-a7685aee80a3</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Sun, 10 May 2026 03:13:04 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260510_aoi_ai/2026-05-10_aoi_AI_Audio.mp3" length="21314800" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Dive into the hidden secrets behind Applied Optoelectronics Inc. (AOI) and its massive rise in the AI infrastructure space. We unpack AOI's $20.9 million Texas Semiconductor Innovation Fund grant, their 210,000-square-foot Sugar Land expansion, and the ongoing push for 'Made in America' manufacturing. Discover how their advanced 800G and 1.6T transceivers, alongside the breakthrough 25dBm Ultra-High Power ELSFP, are solving the extreme power and bandwidth demands of modern hyperscaler GPU clusters.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260510_aoi_ai/2026-05-10_aoi_AI_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
