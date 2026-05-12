@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Mon, 11 May 2026 00:15:11 GMT</lastBuildDate>
+		<lastBuildDate>Tue, 12 May 2026 01:53:21 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -798,6 +798,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260511_soc_thinking/2026-05-11_soc_thinking_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[3 Reasons Lawyers FEAR Agentic AI [2026 Warning]]]></title>
+            <description><![CDATA[<p>Attorneys are urgently warning against using AI meeting note-takers due to massive discovery and attorney-client privilege risks. Plus, we explore exclusive 2026 insights from inside China's top AI labs, revealing how unique cultural shifts and a deep technology ownership mentality are accelerating the development of agentic AI and sovereign models.</p>]]></description>
+            <guid isPermaLink="false">f667842e-8ad1-48d7-ba5e-a7cda0ded290</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Tue, 12 May 2026 01:53:21 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260512_note_ai/2026-05-12_note_ai_Audio.mp3" length="21313546" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Attorneys are urgently warning against using AI meeting note-takers due to massive discovery and attorney-client privilege risks. Plus, we explore exclusive 2026 insights from inside China's top AI labs, revealing how unique cultural shifts and a deep technology ownership mentality are accelerating the development of agentic AI and sovereign models.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260512_note_ai/2026-05-12_note_ai_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
