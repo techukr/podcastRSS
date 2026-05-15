@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Tue, 12 May 2026 01:53:21 GMT</lastBuildDate>
+		<lastBuildDate>Fri, 15 May 2026 04:08:07 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -811,6 +811,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260512_note_ai/2026-05-12_note_ai_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[1 SECRET flaw of AI music [Study]]]></title>
+            <description><![CDATA[<p>An academic study reveals that listeners engage less deeply with music labeled as AI, even when created by humans. Meanwhile, over 130 indie music executives argue that this flood of AI-generated content actually creates more demand for authentic, human-made artistry, giving independent labels a unique advantage in 2026.</p>]]></description>
+            <guid isPermaLink="false">bb85a94d-0ba0-4c7d-b9b4-684cc653648e</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Fri, 15 May 2026 04:08:07 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260515_music_ai/2026-05-15_Music_AI_Audio.mp3" length="15028485" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>An academic study reveals that listeners engage less deeply with music labeled as AI, even when created by humans. Meanwhile, over 130 indie music executives argue that this flood of AI-generated content actually creates more demand for authentic, human-made artistry, giving independent labels a unique advantage in 2026.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260515_music_ai/2026-05-15_Music_AI_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
