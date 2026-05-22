@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Sat, 16 May 2026 14:46:37 GMT</lastBuildDate>
+		<lastBuildDate>Fri, 22 May 2026 08:11:27 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -837,6 +837,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260516_turing_ai/2026-05-16_turing_AI_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[China's REAL Sovereign AI Threat ]]></title>
+            <description><![CDATA[<p>Nvidia CEO Jensen Huang issues a stark warning: U.S. chip export bans have backfired. Instead of crippling Beijing's capabilities, aggressive decoupling has forced China into tech self-sufficiency. State-backed rival Huawei is now flourishing in America's absence, securing all the chips they need, and actively exporting competitive technology worldwide. Discover why this unintended consequence has transformed domestic competitors into a critical national security dilemma.</p>]]></description>
+            <guid isPermaLink="false">d395c943-c156-4b39-bda2-b1fae22a1861</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Fri, 22 May 2026 08:11:27 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260522_jensen_huang/2026-05-22_jensen_huang_Audio.mp3" length="15003407" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Nvidia CEO Jensen Huang issues a stark warning: U.S. chip export bans have backfired. Instead of crippling Beijing's capabilities, aggressive decoupling has forced China into tech self-sufficiency. State-backed rival Huawei is now flourishing in America's absence, securing all the chips they need, and actively exporting competitive technology worldwide. Discover why this unintended consequence has transformed domestic competitors into a critical national security dilemma.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260522_jensen_huang/2026-05-22_jensen_huang_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
