@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Thu, 04 Jun 2026 01:43:02 GMT</lastBuildDate>
+		<lastBuildDate>Fri, 05 Jun 2026 09:20:44 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -889,6 +889,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260604_ps5_pro/2026-06-04_ps5_pro_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[Agentic AI: 3 SECRETS of Gemma 4 12B (Mac)]]></title>
+            <description><![CDATA[<p>In this episode, we explore Google's groundbreaking Gemma 4 12B model, which brings encoder-free, Agentic AI directly to your laptop. We break down the new Google AI Edge Gallery and Eloquent apps for macOS, enabling zero-code, fully offline multimodal workflows. Plus, we analyze IBM's new multi-billion-dollar partnership with Google Cloud for Gemini Enterprise, and unpack the internal Google memes revealing employee frustrations with AI-generated code.</p>]]></description>
+            <guid isPermaLink="false">7fdd84cd-8f11-4107-a385-ae784bf94b82</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Fri, 05 Jun 2026 09:20:44 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260605_google_ai/2026-06-05_GOOGLE_AI_Audio.mp3" length="20338656" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>In this episode, we explore Google's groundbreaking Gemma 4 12B model, which brings encoder-free, Agentic AI directly to your laptop. We break down the new Google AI Edge Gallery and Eloquent apps for macOS, enabling zero-code, fully offline multimodal workflows. Plus, we analyze IBM's new multi-billion-dollar partnership with Google Cloud for Gemini Enterprise, and unpack the internal Google memes revealing employee frustrations with AI-generated code.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260605_google_ai/2026-06-05_GOOGLE_AI_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
