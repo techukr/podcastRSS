@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Sat, 06 Jun 2026 16:51:59 GMT</lastBuildDate>
+		<lastBuildDate>Sat, 06 Jun 2026 16:54:30 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -928,6 +928,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260606_amoc_weakening/2026-06-06_amoc_weakening_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[The HIDDEN ocean monitoring collapse [3 Warnings]]]></title>
+            <description><![CDATA[<p>In June 2026, the sudden dismantling of the Ocean Observatories Initiative triggered a verified warning among scientists. With over 900 ocean instruments removed, we are losing vital tracking data on the Atlantic overturning circulation collapse and severe El Niño weather patterns. Discover the hidden consequences of navigating the climate crisis blind, the impact on global agriculture, and why these essential scientific blueprints are being stopped.</p>]]></description>
+            <guid isPermaLink="false">a62c09e6-8fee-4abb-ab1a-e3dfb1fab281</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Sat, 06 Jun 2026 16:54:30 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260606_amoc/2026-06-06_amoc_Audio.mp3" length="21269661" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>In June 2026, the sudden dismantling of the Ocean Observatories Initiative triggered a verified warning among scientists. With over 900 ocean instruments removed, we are losing vital tracking data on the Atlantic overturning circulation collapse and severe El Niño weather patterns. Discover the hidden consequences of navigating the climate crisis blind, the impact on global agriculture, and why these essential scientific blueprints are being stopped.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260606_amoc/2026-06-06_amoc_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
