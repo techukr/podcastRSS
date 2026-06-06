@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Fri, 05 Jun 2026 09:20:44 GMT</lastBuildDate>
+		<lastBuildDate>Sat, 06 Jun 2026 16:51:59 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -902,6 +902,32 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260605_google_ai/2026-06-05_GOOGLE_AI_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[The HIDDEN Xbox Cloud device & 9 games [June 2026]]]></title>
+            <description><![CDATA[<p>In this episode, we uncover the leaked compact Xbox Cloud Gaming controller featuring Wi-Fi 6, designed to minimize input latency for cloud players. We also explore the 9 new titles dropping on Xbox Game Pass, including the day-one release of Starseeker: Astroneer Expeditions, and break down the newly expanded partnership delivering Discord Nitro perks to Game Pass subscribers.</p>]]></description>
+            <guid isPermaLink="false">f602d6fa-3baa-4d76-b5ad-5425a9762000</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Sat, 06 Jun 2026 16:51:58 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260606_xbox_cloud_gaming/2026-06-06_xbox_cloud_gaming_Audio.mp3" length="15290545" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>In this episode, we uncover the leaked compact Xbox Cloud Gaming controller featuring Wi-Fi 6, designed to minimize input latency for cloud players. We also explore the 9 new titles dropping on Xbox Game Pass, including the day-one release of Starseeker: Astroneer Expeditions, and break down the newly expanded partnership delivering Discord Nitro perks to Game Pass subscribers.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260606_xbox_cloud_gaming/2026-06-06_xbox_cloud_gaming_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[Warning: 3 REAL AMOC weakening facts [Research-backed]]]></title>
+            <description><![CDATA[<p>The Atlantic Meridional Overturning Circulation (AMOC) could weaken by 51% by 2100, bringing extreme global consequences like colder European winters, accelerated US sea-level rise, and disrupted marine biodiversity. We explore new research correcting systemic flaws in climate models, and why experts argue that uncertainty around this ocean tipping point is an urgent signal to act.</p>]]></description>
+            <guid isPermaLink="false">7017566a-7044-439d-8d95-2ed5576853c3</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Sat, 06 Jun 2026 16:51:59 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260606_amoc_weakening/2026-06-06_amoc_weakening_Audio.mp3" length="18824599" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>The Atlantic Meridional Overturning Circulation (AMOC) could weaken by 51% by 2100, bringing extreme global consequences like colder European winters, accelerated US sea-level rise, and disrupted marine biodiversity. We explore new research correcting systemic flaws in climate models, and why experts argue that uncertainty around this ocean tipping point is an urgent signal to act.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260606_amoc_weakening/2026-06-06_amoc_weakening_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
