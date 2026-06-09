@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Sat, 06 Jun 2026 16:54:30 GMT</lastBuildDate>
+		<lastBuildDate>Tue, 09 Jun 2026 10:17:44 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -941,6 +941,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260606_amoc/2026-06-06_amoc_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[3 SECRET Nintendo Direct reveals [June 2026]]]></title>
+            <description><![CDATA[<p>Prepare for the June 9, 2026 Nintendo Direct with our complete breakdown. We cover what to expect from the 50-minute showcase of Switch and Switch 2 games, the massive 95-minute Treehouse: Live event, newly datamined Nintendo Switch Online challenges, and the heavily rumored Legend of Zelda: Ocarina of Time remake.</p>]]></description>
+            <guid isPermaLink="false">a32afca9-e0fe-49df-afbb-ed1cd846a151</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Tue, 09 Jun 2026 10:17:44 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260609_nintendo_direct/2026-06-09_nintendo_direct_Audio.mp3" length="13044224" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>Prepare for the June 9, 2026 Nintendo Direct with our complete breakdown. We cover what to expect from the 50-minute showcase of Switch and Switch 2 games, the massive 95-minute Treehouse: Live event, newly datamined Nintendo Switch Online challenges, and the heavily rumored Legend of Zelda: Ocarina of Time remake.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260609_nintendo_direct/2026-06-09_nintendo_direct_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
