@@ -5,7 +5,7 @@
 		<description><![CDATA[Tech Wise Stream Podcast Channel]]></description>
 		<link>https://anchor.fm/s/1105a44c8/podcast/rss</link>
 		<generator>Custom Auto Publisher</generator>
-		<lastBuildDate>Tue, 09 Jun 2026 10:17:44 GMT</lastBuildDate>
+		<lastBuildDate>Thu, 11 Jun 2026 02:51:08 GMT</lastBuildDate>
 		<atom:link href="https://anchor.fm/s/1105a44c8/podcast/rss" rel="self" type="application/rss+xml"/>
 		<author><![CDATA[ACDT]]></author>
 		<copyright><![CDATA[ACDT]]></copyright>
@@ -954,6 +954,19 @@
             <itunes:explicit>false</itunes:explicit>
             <itunes:duration>00:15:00</itunes:duration>
             <itunes:image href="https://archive.org/download/podcast_20260609_nintendo_direct/2026-06-09_nintendo_direct_Cover.png"/>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+			<item>
+            <title><![CDATA[Warning: 3 REAL iOS 27 hardware limits ]]></title>
+            <description><![CDATA[<p>We break down why Apple's new iOS 27 restricts its most powerful on-device Siri AI features to the iPhone 17 Pro, iPhone 17 Pro Max, and iPhone Air. Discover the 12GB RAM requirement leaving standard iPhone 17 models behind, and what the latest iPhone 18 Pro variable aperture camera leaks mean for your next upgrade.</p>]]></description>
+            <guid isPermaLink="false">a3684e33-bc62-4a90-b73e-60a4beb5e094</guid>
+            <dc:creator><![CDATA[ACDT]]></dc:creator>
+            <pubDate>Thu, 11 Jun 2026 02:51:08 GMT</pubDate>
+            <enclosure url="https://archive.org/download/podcast_20260611_apple_iphone_17_pro/2026-06-11_apple_iphone_17_pro_Audio.mp3" length="19039012" type="audio/mpeg"/>
+            <itunes:summary><![CDATA[<p>We break down why Apple's new iOS 27 restricts its most powerful on-device Siri AI features to the iPhone 17 Pro, iPhone 17 Pro Max, and iPhone Air. Discover the 12GB RAM requirement leaving standard iPhone 17 models behind, and what the latest iPhone 18 Pro variable aperture camera leaks mean for your next upgrade.</p>]]></itunes:summary>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:duration>00:15:00</itunes:duration>
+            <itunes:image href="https://archive.org/download/podcast_20260611_apple_iphone_17_pro/2026-06-11_apple_iphone_17_pro_Cover.png"/>
             <itunes:episodeType>full</itunes:episodeType>
         </item>
 	</channel>
